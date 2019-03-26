@@ -1,5 +1,5 @@
-﻿using System.Web;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
+using System.Web.UI.WebControls;
 
 namespace RS
 {
@@ -23,8 +23,13 @@ namespace RS
                       "~/Scripts/bootstrap.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
-                      "~/Content/bootstrap.css",
-                      "~/Content/site.css"));
+                      "~/Content/css/bootstrap.css",
+                      "~/Content/css/bootstrap.min.css",
+                      "~/Content/css/bootstrap-confirm-delete.css",
+                      "~/Content/css/equal-column.css",
+                      "~/Content/css/font-awesome.min.css",
+                      "~/Content/css/Site.css"
+                     ));
         }
     }
 }
