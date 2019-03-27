@@ -8,11 +8,14 @@ namespace RS.Controllers
 {
     public class HomeController : Controller
     {
+
+        // GET: Home page
         public ActionResult Index()
         {
             return View();
         }
 
+        // GET: About page
         public ActionResult About()
         {
             ViewBag.Message = "Your application description page.";
@@ -20,6 +23,7 @@ namespace RS.Controllers
             return View();
         }
 
+        // GET: Contact page
         public ActionResult Contact()
         {
             ViewBag.Message = "Your contact page.";

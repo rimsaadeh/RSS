@@ -118,9 +118,9 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="Cannot_reach_the_page" xml:space="preserve">
-    <value>الصفحة المطلوبة غير موجودة</value>
+    <value>The page you requested was not found </value>
   </data>
   <data name="Return_to_home" xml:space="preserve">
-    <value>العوده الى الصفحه الرئيسيه</value>
+    <value>Return Home</value>
   </data>
 </root>

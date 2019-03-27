@@ -1,0 +1,22 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="@Url.Content("~/Content/css/bootstrap.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/css/bootstrap.min.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/css/Site.css")" rel="stylesheet" type="text/css" />
+    <title>NotFound</title>
+</head>
+<body>
+    <div class="container">
+        <div class="error_border">
+            <h2 class="error-mes">@Resources.Resource.Cannot_reach_the_page</h2>
+            <a href="@Url.Action("Index", "Home")" class="error-return btn btn-primary mt-5 " id="return">@Resources.Resource.Return_to_home</a>
+        </div>
+    </div>
+</body>
+</html>
